@@ -22,7 +22,7 @@ path = "src/main.rs"
 # Used here only to read the local daemon's peer roster
 # over the IPC socket (identity resolution + the network's own mesh IP to
 # bind on) -- the same technique tetron-sync-receiver's roster.rs uses.
-tetron-proto = { git = "https://github.com/tetronos/tetron", tag = "v0.15.7" }
+tetron-proto = { git = "https://github.com/tetronos/tetron", tag = "v0.15.8" }
 # `multipart` for attachment uploads; `fs` for streaming attachment reads.
 axum = { version = "0.8", features = ["multipart"] }
 tokio = { version = "1", features = ["rt-multi-thread", "macros", "process", "fs", "sync"] }
